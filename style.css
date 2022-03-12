@@ -1,0 +1,62 @@
+.form{
+    background-color: #ecebeb;
+    margin: 30px 0px;
+    padding: 15px;
+    border-radius: 7px;
+    /* width: 75%;
+    margin: auto; */
+}
+.form input{
+    border-radius: 5px;
+    width: 90%;
+    color: #fff;
+    /* width: 75%; */
+}
+.form .row{
+    display: flex;
+    justify-content: space-around;
+}
+.form .row .add{
+    border: 1px solid #fff;
+    width: 15%;
+}
+.tasks button{
+    width: 85px;
+    border: 1px solid #fff;
+    background-color: #DC3545;
+    color: #fff;
+    border-radius: 6px;
+    /* text-align: center; */
+    height: 30px
+}
+.tasks{
+    background-color: #ecebeb;
+    margin: 30px 0px;
+    padding: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    /* width: 75%; */
+    /* margin: 30px auto; */
+}
+.task{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.tasks .done{
+    opacity: 0.5;
+}
+
+.tasks .task:hover{
+    background-color: #f7f7f7;
+}
+.clear{
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
